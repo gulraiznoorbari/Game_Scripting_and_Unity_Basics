@@ -1,0 +1,8 @@
+com.Gulraiz.Shooter-pngs-0 D:\Shooter\build\generated\res\pngs\release
+com.Gulraiz.Shooter-resValues-1 D:\Shooter\build\generated\res\resValues\release
+com.Gulraiz.Shooter-rs-2 D:\Shooter\build\generated\res\rs\release
+com.Gulraiz.Shooter-mergeReleaseResources-3 D:\Shooter\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.Gulraiz.Shooter-mergeReleaseResources-4 D:\Shooter\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.Gulraiz.Shooter-merged_res-5 D:\Shooter\build\intermediates\merged_res\release
+com.Gulraiz.Shooter-main-6 D:\Shooter\src\main\res
+com.Gulraiz.Shooter-release-7 D:\Shooter\src\release\res
