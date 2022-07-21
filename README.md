@@ -1,1 +1,1 @@
-> This Repository project will run in Unity 2018.4.23f1
+> This Repository Projects will run ONLY in Unity 2018.4.23f1
