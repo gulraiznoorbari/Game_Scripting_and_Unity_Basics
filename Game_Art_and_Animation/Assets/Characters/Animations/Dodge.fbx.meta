@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39f64586748322a41ae9622c20e488fe
+guid: afcf1629adafff643864838b1bd4fbb2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -203,7 +203,7 @@ ModelImporter:
     400194: mixamorig:Spine1
     400196: mixamorig:Spine2
     400198: RightEye
-    7400000: Idle
+    7400000: Dodge
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -234,17 +234,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
+      name: Dodge
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 263
+      lastFrame: 99
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

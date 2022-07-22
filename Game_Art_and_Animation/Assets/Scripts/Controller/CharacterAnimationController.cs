@@ -8,9 +8,9 @@ public class CharacterAnimationController
     private static int TauntKey = Animator.StringToHash("Taunt");
     private static int TurnLeftKey = Animator.StringToHash("TurnLeft");
     private static int WalkKey = Animator.StringToHash("Walk");
-    private static int AttackKey = Animator.StringToHash("Attack");
     private static int TurnRightKey = Animator.StringToHash("TurnRight");
     private static int CrouchKey = Animator.StringToHash("Crouch");
+    private static int AttackTypeKey = Animator.StringToHash("AttackType");
 
     public CharacterAnimationController(Animator animator)
     {
@@ -33,14 +33,14 @@ public class CharacterAnimationController
             case AnimationType.Walk:
                 PlayWalk();
                 break;
-            case AnimationType.Attack:
-                PlayAttack();
-                break;
             case AnimationType.TurnRight:
                 PlayTurnRight();
                 break;
             case AnimationType.Crouch:
                 PlayCrouch();
+                break;
+            case AnimationType.Attack:
+                PlayAttack();
                 break;
         } 
     }
@@ -64,11 +64,6 @@ public class CharacterAnimationController
         _animator.SetTrigger(WalkKey);
     }
 
-    private void PlayAttack()
-    {
-        _animator.SetTrigger(AttackKey);
-    }
-
     private void PlayTurnRight()
     {
         _animator.SetTrigger(TurnRightKey);
@@ -79,5 +74,10 @@ public class CharacterAnimationController
         _animator.SetTrigger(CrouchKey);
     }
 
+    private void PlayAttack()
+    {
+        _animator.SetInteger(AttackTypeKey, Random.Range(0, 2));
+        //_animator.SetTrigger(AttackTypeKey);
+    }
 
 }

@@ -4,7 +4,7 @@
     Taunt,
     TurnLeft,
     Walk,
-    Attack,
     TurnRight,
-    Crouch
+    Crouch,
+    Attack,
 }
